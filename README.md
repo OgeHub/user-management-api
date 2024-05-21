@@ -21,7 +21,7 @@ This project is a simple User Management API built with Node.js, Express, and Mo
    Create a .env file in the root of your project and add the following variables:
 
 ```sh
-    MONGO_URI=
+    MONGODB_URI=
     PORT=
 ```
 
@@ -30,7 +30,7 @@ This project is a simple User Management API built with Node.js, Express, and Mo
 1. Start the MongoDB server
    Make sure you have a MongoDB server running on your local machine if you are running locally and provide the appropriate MongoDB URI in the .env file.
 
-2. Start Application in Development mode
+2. Start the Application in Development mode
 
 ```sh
 npm run dev
